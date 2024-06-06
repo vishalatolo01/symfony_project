@@ -1,0 +1,14 @@
+app_main:
+    path: /main
+    controller: 'App\Controller\MainController::index'
+
+app_start:
+    path: /start
+    controller: 'App\Controller\MainController::start'
+
+app_view:
+    path: /view
+    controller: 'App\Controller\ViewController::index'
+app_get:
+    path: /getView
+    controller: 'App\Controller\ViewCOntroller::getView'
